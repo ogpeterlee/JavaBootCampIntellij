@@ -13,24 +13,41 @@ public class NumToWords {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
-		
-				
-		int i = 8;
+
+
+
+		int i = 7;
 		String numText = "";
 
 		switch(i) {
 		
 		case 1:
-			numText = "ONE";break;
+			numText = "ONE";
+			break;
 		case 2:
-			numText = "TWO";break;
+			numText = "TWO";
+			break;
 		case 3:
-			numText = "THREE";break;
+			numText = "THREE";
+			break;
 		case 4:
-			numText = "FOUR";break;
+			numText = "FOUR";
+			break;
 		case 5:
-			numText = "FIVE";break;
+			numText = "FIVE";
+			break;
+		case 6:
+			numText = "SIX";
+			break;
+		case 7:
+			numText = "SEVEN";
+			break;
+		case 8:
+			numText = "EIGHT";
+			break;
+		case 9:
+			numText = "NINE";
+			break;
 		// complete the code.
 		default:
 			numText = "NUMBER " + i;

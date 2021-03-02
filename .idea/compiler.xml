@@ -3,14 +3,10 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/AddWholeNum.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/Calculator.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/FindInArray.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/FindLargest.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sef/module3/activity/Calculator.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/MultiplicationTable.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/NumToWords.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/NumToWordsUsingMethod.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/OperatorActivity.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/PrintNumWithWhile.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sef/module3/activity/NumToWords.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sef/module3/activity/NumToWordsUsingMethod.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/MultiDimensionalArraySample.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/WhileLoopSample.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/MethodSample.java" />
