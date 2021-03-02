@@ -3,8 +3,8 @@
   <component name="NewModuleRootManager">
     <output url="file://C:/production/JavaBootCampIntellij" />
     <output-test url="file://C:/production/JavaBootCampIntellij" />
-    <content url="file://$MODULE_DIR$/SEF - Participants Workspace/SEF/src/sef/module3">
-      <sourceFolder url="file://$MODULE_DIR$/SEF - Participants Workspace/SEF/src/sef/module3" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/SEF - Participants Workspace/SEF/src/sef/module4">
+      <sourceFolder url="file://$MODULE_DIR$/SEF - Participants Workspace/SEF/src/sef/module4" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
