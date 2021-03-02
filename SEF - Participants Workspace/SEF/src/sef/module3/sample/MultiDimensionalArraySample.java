@@ -1,4 +1,4 @@
-package sef.module3.sample;
+package sample;
 
 public class MultiDimensionalArraySample {
 	public static void main(String[] args) {

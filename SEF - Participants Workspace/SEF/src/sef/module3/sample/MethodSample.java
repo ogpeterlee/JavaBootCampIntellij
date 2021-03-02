@@ -1,4 +1,4 @@
-package sef.module3.sample;
+package sample;
 
 public class MethodSample {
 
@@ -24,3 +24,5 @@ public class MethodSample {
 		
 	}
 }
+
+

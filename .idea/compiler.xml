@@ -11,12 +11,10 @@
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/NumToWordsUsingMethod.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/OperatorActivity.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/PrintNumWithWhile.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/CastingSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/MainSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/MethodSample.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/MultiDimensionalArraySample.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/WhileLoopSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/activity/sef/module3/activity/VariableAssignmentActivity.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/MethodSample.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module3/sample/CastingSample.java" />
     </excludeFromCompile>
     <bytecodeTargetLevel target="15" />
   </component>
