@@ -16,7 +16,7 @@ public void catchMeIfYouCan()
 	try{
 	for(int i=0;i<=10;i++)
 	{
-		System.out.println(arr[i]);
+		System.out.println("number is "+arr[i]);
 	}
 	}catch (Exception e) {
 		System.out.println("More than 9!");

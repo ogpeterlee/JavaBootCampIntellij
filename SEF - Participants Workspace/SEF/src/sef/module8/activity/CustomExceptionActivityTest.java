@@ -19,7 +19,7 @@ for(int i=0;i<4;i++)
 {
 	
 //2 - Write code to check if parameter name contains a value which is found in validUsers array and change flag's value accordingly
-
+name.equals(validUsers[i]);
 }
 //3 - check if flag is zero, throw CustomExceptionActivity Exception.
 //You may also have to declare this exception in the method call using throws.
