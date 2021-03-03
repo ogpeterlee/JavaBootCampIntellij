@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 /* Student_I class is the sub class of Person class
  * Attributes : school, grade

@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 /* Person_I class is the superclass 
  * Attributes : name, age

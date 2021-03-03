@@ -1,4 +1,4 @@
-package sef.module8.activity;
+package activity;
 //Needs to be completed
 //This program accepts a user name and checks user's validity
 //The user name is checked against an array of names.
@@ -18,7 +18,7 @@ int flag=0;
 for(int i=0;i<4;i++)
 {
 	
-//2 - Write code to check if parameter name contains a value which is found in validUsers array and change flag's value accordingly 
+//2 - Write code to check if parameter name contains a value which is found in validUsers array and change flag's value accordingly
 
 }
 //3 - check if flag is zero, throw CustomExceptionActivity Exception.

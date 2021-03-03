@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 public class Student_A extends Person_A {
 	

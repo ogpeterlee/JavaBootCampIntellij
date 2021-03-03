@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 public class InheritanceSample {
 
@@ -49,7 +49,7 @@ public class InheritanceSample {
 			
 		// Usage of 'super'
 		System.out.println("-----------------------------");
-		s.announce();
+
 		
 	}
 }
