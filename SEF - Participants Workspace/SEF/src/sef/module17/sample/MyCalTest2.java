@@ -1,4 +1,4 @@
-package sef.module17.sample;
+package sample;
 
 import static org.junit.Assert.*;
 

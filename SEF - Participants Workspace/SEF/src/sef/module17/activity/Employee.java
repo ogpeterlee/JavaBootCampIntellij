@@ -1,15 +1,15 @@
-package sef.module17.activity;
+package activity;
 // Complete Code
 class Employee {
 
-	String id;
+	int id;
 	String firstName;
 	String lastName;
 	int salary;
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getFirstName() {

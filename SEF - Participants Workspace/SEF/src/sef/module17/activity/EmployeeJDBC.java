@@ -1,4 +1,4 @@
-package sef.module17.activity;
+package activity;
 //Needs to be completed
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,16 +8,25 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class EmployeeJDBC {
-
-	public Connection createConnection()
+	Employee emp = new Employee();
+	public static void main(String arg[]) {
+		Connection con = createConnection();
+		Employee e1= new Employee();
+		Employee e2= new Employee();
+		e1=findEmployeeById(1);
+		System.out.println(e1.getFirstName());
+		e2=findEmployeeBySalary(543);
+		System.out.println(e2.getFirstName());
+	}
+	public static Connection createConnection()
 	{
 		Connection con=null;
 		String url = "jdbc:mysql://localhost/activity";
 		String user = "root";
-		String pass = "adbd1234";
+		String pass = "dava0706";
 
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, user, pass);
 			System.out.println("Connection successfully established!");
 		} catch (ClassNotFoundException e) {
@@ -31,28 +40,66 @@ public class EmployeeJDBC {
 		return con;
 	}
 	
-	public Employee findEmployeeById(String id)
+	public static Employee findEmployeeById(int id)
 	{
 		Connection con = createConnection();
 		Employee emp=null;
 		try {
 		// 1 - Create a PreparedStatement with a query
-		
+			PreparedStatement pStmt = con.prepareStatement("select * from employee where id = ?");
+
 
 		// 2 - Search for the given id
-		
+			pStmt.setInt(1,id);
 
 		// 3 - Execute this query
-		
+			ResultSet rs = pStmt.executeQuery();
 		
 		// 4 - If resultset is not null, then initialize emp object with data 
-		
+			if(rs.next()) {
+				emp = new Employee();
+				emp.setId(rs.getInt(1));
+				emp.setFirstName(rs.getString(2));
+				emp.setLastName(rs.getString(3));
+				emp.setSalary(rs.getInt(4));
+			}
 		con.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
+		return emp;
+	}
+	public static Employee findEmployeeBySalary(int salary)
+	{
+		Connection con = createConnection();
+		Employee emp=null;
+		try {
+			// 1 - Create a PreparedStatement with a query
+			PreparedStatement pStmt = con.prepareStatement("select * from employee where salary = ?");
+
+
+			// 2 - Search for the given id
+			pStmt.setInt(1,salary);
+
+			// 3 - Execute this query
+			ResultSet rs = pStmt.executeQuery();
+
+			// 4 - If resultset is not null, then initialize emp object with data
+			if(rs.next()) {
+				emp = new Employee();
+				emp.setId(rs.getInt(1));
+				emp.setFirstName(rs.getString(2));
+				emp.setLastName(rs.getString(3));
+				emp.setSalary(rs.getInt(4));
+			}
+			con.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		return emp;
 	}
 
@@ -63,7 +110,6 @@ public class EmployeeJDBC {
 		
 		try {
 		// 1 - Create a PreparedStatement with a query
-		
 
 		// 2 - Search for the given id
 		
@@ -107,27 +153,27 @@ public class EmployeeJDBC {
 		return list;
 	}
 
-	public void insertEmployee(Employee emp)
-	{
-		Connection con = createConnection();
-		
-		//1 - Create a PreparedStatement with a query "insert into employee values(?,?,?,?)" 
-		
-		con.setAutoCommit(false);
-
-		//	Substitute the ? now.
-		
-		//2 - Execute this query using executeUpdate()
-			
-		System.out.println(rows + " row(s) added!");
-		con.commit();
-		con.close();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//	public void insertEmployee(Employee emp)
+//	{
+//		Connection con = createConnection();
+//
+//		//1 - Create a PreparedStatement with a query "insert into employee values(?,?,?,?)"
+//
+//		con.setAutoCommit(false);
+//
+//		//	Substitute the ? now.
+//
+//		//2 - Execute this query using executeUpdate()
+//
+//		System.out.println(rows + " row(s) added!");
+//		con.commit();
+//		con.close();
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		
 
 	}
 
-}
+

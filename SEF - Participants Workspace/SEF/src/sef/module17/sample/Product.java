@@ -1,4 +1,4 @@
-package sef.module17.sample;
+package sample;
 // Complete Code
 import java.io.Serializable;
 
